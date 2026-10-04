@@ -1,0 +1,586 @@
+{
+	"format_version": 3,
+	"header": {
+		"description": "pack.description",
+		"name": "§l§o§2La Nature §rby §l§vCarrot§r 1.0.90",
+		"uuid": "77b7f249-02b7-4f27-9e35-66f004d689c4",
+		"version": "1.0.90",
+		"min_engine_version": "1.26.50"
+	},
+	"modules": [
+		{
+			"description": "Hey man",
+			"type": "resources",
+			"uuid": "0e0b0bff-653b-4c46-8360-e756e2b5857b",
+			"version": "1.0.90"
+		}
+	],
+	"subpacks": [
+		{
+			"folder_name": "po",
+			"name": "subpack.lnbc.iteuut6afefs.name",
+			"memory_performance_tier": 0
+		},
+		{
+			"folder_name": "ln",
+			"name": "subpack.lnbc.3z4hzpenzfw4.name",
+			"memory_performance_tier": 0
+		}
+	],
+	"settings": [
+		{
+			"name": "lnbc:render_distance",
+			"text": "setting.lnbc.9znwuawohlb1.name",
+			"type": "slider",
+			"min": 5,
+			"max": 96,
+			"step": 1,
+			"default": 16
+		},
+		{
+			"text": "setting.lnbc.uygna61lxld4.name",
+			"type": "label"
+		},
+		{
+			"text": "setting.lnbc.3n6wetxzxco4.name",
+			"type": "label"
+		},
+		{
+			"name": "lnbc:emergency_low_detail_mode",
+			"text": "setting.lnbc.dj39nydvegl8.name",
+			"type": "toggle",
+			"default": false
+		},
+
+		{
+			"name": "lnbc:i79aixgldl",
+			"text": "setting.lnbc.nt51vljrzfrj.name",
+			"type": "slider",
+			"min": 0.0,
+			"max": 3.0,
+			"step": 0.1,
+			"default": 1.0
+		},
+		{
+			"name": "lnbc:9r76jl27l1",
+			"text": "setting.lnbc.qmuyrhd1ddlw.name",
+			"type": "slider",
+			"min": 0.25,
+			"max": 1.5,
+			"step": 0.125,
+			"default": 1.0
+		},
+		{
+			"name": "lnbc:vh88gx4rfa",
+			"text": "setting.lnbc.01wyztdkhbn7.name",
+			"type": "slider",
+			"min": 0.0,
+			"max": 3.0,
+			"step": 0.1,
+			"default": 1.0
+		},
+
+		{
+			"name": "lnbc:bhsgxpb41g",
+			"text": "setting.lnbc.f23zo46l4i27.name",
+			"type": "slider",
+			"min": 0.0,
+			"max": 3.0,
+			"step": 0.1,
+			"default": 1.0
+		},
+
+		{
+			"name": "lnbc:gzerfgsdtzdf",
+			"text": "setting.lnbc.ylcz3itnhw0i.name",
+			"type": "dropdown",
+			"default": "default",
+			"options": [
+				{
+					"name": "none",
+					"text": "option.lnbc.5bvi8jl94x8a.name"
+				},
+				{
+					"name": "ldm",
+					"text": "option.lnbc.bg82hsyrwuwc.name"
+				},
+				{
+					"name": "default",
+					"text": "option.lnbc.8dngpsnvlax3.name"
+				}
+			]
+		},
+		{
+			"name": "lnbc:esfgesgtfgfre",
+			"text": "setting.lnbc.60jvb90vzpqg.name",
+			"type": "dropdown",
+			"default": "default",
+			"options": [
+				{
+					"name": "none",
+					"text": "option.lnbc.b9gaw7nrclg2.name"
+				},
+				{
+					"name": "default",
+					"text": "option.lnbc.73a6m4n9yugh.name"
+				},
+				{
+					"name": "overkill_mode",
+					"text": "option.lnbc.enot2u03mpzf.name"
+				}
+			]
+		},
+		{
+			"name": "lnbc:nether_portal_particles",
+			"text": "setting.lnbc.fpizhu97vg2q.name",
+			"type": "dropdown",
+			"default": "default",
+			"options": [
+				{
+					"name": "none",
+					"text": "option.lnbc.i6p0yz551kvx.name"
+				},
+				{
+					"name": "ldm",
+					"text": "option.lnbc.fdr5p8bzw8sx.name"
+				},
+				{
+					"name": "default",
+					"text": "option.lnbc.3902j9x4q0kw.name"
+				}
+			]
+		},
+		
+		{
+			"name": "lnbc:trou_noir",
+			"text": "setting.lnbc.vbaq7caawkcy.name",
+			"type": "dropdown",
+			"default": "default",
+			"options": [
+				{
+					"name": "deactivated",
+					"text": "option.lnbc.8ea51rf5waqi.name"
+				},
+				{
+					"name": "static",
+					"text": "option.lnbc.upzsdsui6q4h.name"
+				},
+				{
+					"name": "default",
+					"text": "option.lnbc.ougcwd2a8h4u.name"
+				}
+			]
+		},
+
+		{
+			"name": "lnbc:adogebs93y",
+			"text": "setting.lnbc.srv0655da52h.name",
+			"type": "dropdown",
+			"default": "zqfadgfs",
+			"options": [
+				{
+					"name": "zresqdfz",
+					"text": "option.lnbc.33dbyrt383tk.name"
+				},
+				{
+					"name": "zqfadgfs",
+					"text": "option.lnbc.zs3qdhsrzm0f.name"
+				},
+				{
+					"name": "efsedfqd",
+					"text": "option.lnbc.pjmo5ndejos9.name"
+				}
+			]
+		},
+		{
+			"name": "lnbc:qf1dzfegsd",
+			"text": "setting.lnbc.lsgnm8iejoj6.name",
+			"type": "slider",
+			"min": 0.1,
+			"max": 2.0,
+			"step": 0.1,
+			"default": 1.0
+		},
+
+		{
+			"name": "lnbc:e6ifdui6q8",
+			"text": "setting.lnbc.0g3piou9fww4.name",
+			"type": "slider",
+			"min": 0.0,
+			"max": 3.0,
+			"step": 0.25,
+			"default": 1.0
+		},
+		{
+			"name": "lnbc:4jil12i1pu",
+			"text": "setting.lnbc.ahmz67ad58s5.name",
+			"type": "slider",
+			"min": 0.0,
+			"max": 3.0,
+			"step": 0.25,
+			"default": 1.0
+		},
+		{
+			"name": "lnbc:ogwfsq3y9k",
+			"text": "setting.lnbc.iov1hhlm77jq.name",
+			"type": "slider",
+			"min": 0.0,
+			"max": 3.0,
+			"step": 0.25,
+			"default": 1.0
+		},
+
+		{
+			"name": "lnbc:cn8i8w5r0y",
+			"text": "setting.lnbc.h60lvj0hq7sd.name",
+			"type": "slider",
+			"min": 0.0,
+			"max": 3.0,
+			"step": 0.25,
+			"default": 1.0
+		},
+		{
+			"name": "lnbc:rain_parameters",
+			"text": "setting.lnbc.kf5zjrf6f5eo.name",
+			"type": "multiselect",
+			"defaults": ["infiltration", "leaf_drip", "splash_drops"],
+			"options": [
+				{
+					"name": "infiltration",
+					"text": "option.lnbc.09urio474led.name"
+				},
+				{
+					"name": "leaf_drip",
+					"text": "option.lnbc.xiwojkazyyxb.name"
+				},
+				{
+					"name": "puddles",
+					"text": "option.lnbc.ebb69k8azynd.name"
+				},
+				{
+					"name": "splash_drops",
+					"text": "option.lnbc.q5mq22sfyrxg.name"
+				},
+				{
+					"name": "glass_pane_drip",
+					"text": "option.lnbc.942kshklh75m.name"
+				}
+			]
+		},
+		{
+			"name": "lnbc:pzzm5pvq37",
+			"text": "setting.lnbc.1udk9f1voqbm.name",
+			"type": "dropdown",
+			"default": "short_range",
+			"options": [
+				{
+					"name": "deactivated",
+					"text": "option.lnbc.n1mdrxwrjxx8.name"
+				},
+				{
+					"name": "short_range",
+					"text": "option.lnbc.ei6dkepug8u3.name"
+				},
+				{
+					"name": "fezdfee",
+					"text": "option.lnbc.w222uggtvpvh.name"
+				}
+			]
+		},
+		{
+			"name": "lnbc:rainy_steps_sounds",
+			"text": "setting.lnbc.k4gxun4algw9.name",
+			"type": "toggle",
+			"default": true
+		},
+
+		{
+			"name": "lnbc:falling_leaves_size",
+			"text": "setting.lnbc.w1ua3ssx3nsn.name",
+			"type": "slider",
+			"min": 0.25,
+			"max": 2.0,
+			"step": 0.25,
+			"default": 1.0
+		},
+		{
+			"name": "lnbc:fallen_leaves_lifetime",
+			"text": "setting.lnbc.fkkwjh1su6c9.name",
+			"type": "dropdown",
+			"default": "medium",
+			"options": [
+				{
+					"name": "short",
+					"text": "option.lnbc.71l2nnwlzeyl.name"
+				},
+				{
+					"name": "medium",
+					"text": "option.lnbc.h3kkisl7p88w.name"
+				},
+				{
+					"name": "long",
+					"text": "option.lnbc.8iwkj1f60eyb.name"
+				},
+				{
+					"name": "very_long",
+					"text": "option.lnbc.gb5pkzyg00u5.name"
+				},
+				{
+					"name": "too_long",
+					"text": "option.lnbc.ygxi5alu849v.name"
+				}
+			]
+		},
+
+		{
+			"name": "lnbc:ereygfjssedf",
+			"text": "setting.lnbc.mnqasaqdp3sy.name",
+			"type": "slider",
+			"min": 0,
+			"max": 2,
+			"step": 0.25,
+			"default": 1
+		},
+
+		{
+			"name": "lnbc:firefly_texture",
+			"text": "setting.lnbc.p0rwisimy85p.name",
+			"type": "dropdown",
+			"default": "la_nature",
+			"options": [
+				{
+					"name": "la_nature",
+					"text": "option.lnbc.ym0ihv4eqsg3.name"
+				},
+				{
+					"name": "first_preview",
+					"text": "option.lnbc.9lukm9awxugi.name"
+				},
+				{
+					"name": "vanilla",
+					"text": "option.lnbc.nru2fbys0w3c.name"
+				}
+			]
+		},
+		{
+			"name": "lnbc:fire_blossom_particles",
+			"text": "setting.lnbc.77bnyuyeceaj.name",
+			"type": "dropdown",
+			"default": "fireflies",
+			"options": [
+				{
+					"name": "fireflies",
+					"text": "option.lnbc.l1ycqr7ngs4p.name"
+				},
+				{
+					"name": "spores",
+					"text": "option.lnbc.g6gty5knemaz.name"
+				}
+			]
+		},
+
+		{
+			"name": "lnbc:light_turch_particle",
+			"text": "setting.lnbc.b4jvapvq4tur.name",
+			"type": "dropdown",
+			"default": "detailed",
+			"options": [
+				{
+					"name": "basic",
+					"text": "option.lnbc.nu70b13vdxc0.name"
+				},
+				{
+					"name": "detailed",
+					"text": "option.lnbc.x7t4j8ipj5z1.name"
+				}
+			]
+		},
+		{
+			"name": "lnbc:campfire_light",
+			"text": "setting.lnbc.053oans1mlhv.name",
+			"type": "toggle",
+			"default": true
+		},
+
+		{
+			"name": "lnbc:bone_meal_particle",
+			"text": "setting.lnbc.f9ju5hh2dry4.name",
+			"type": "dropdown",
+			"default": "default",
+			"options": [
+				{
+					"name": "ldm_default",
+					"text": "option.lnbc.1ghvn0aikpw4.name"
+				},
+				{
+					"name": "default",
+					"text": "option.lnbc.aflg2ilekprz.name"
+				}
+			]
+		},
+
+		{
+			"name": "lnbc:l6lwnsoe3o",
+			"text": "setting.lnbc.219f8ypnw4nb.name",
+			"type": "dropdown",
+			"default": "normal",
+			"options": [
+				{
+					"name": "efsdfe",
+					"text": "option.lnbc.fl9me7kplxpg.name"
+				},
+				{
+					"name": "faint",
+					"text": "option.lnbc.nt7jd8410hvp.name"
+				},
+				{
+					"name": "normal",
+					"text": "option.lnbc.5eo1nboer95h.name"
+				},
+				{
+					"name": "loud",
+					"text": "option.lnbc.luyz0ycxfvak.name"
+				}
+			]
+		},
+		{
+			"name": "lnbc:egbcyjbh0t",
+			"text": "setting.lnbc.jr6twezl0tzp.name",
+			"type": "toggle",
+			"default": true
+		},
+		{
+			"name": "lnbc:crow_sounds",
+			"text": "setting.lnbc.zhedd0cyl1vk.name",
+			"type": "toggle",
+			"default": true
+		},
+		{
+			"name": "lnbc:wind_chime_sounds",
+			"text": "setting.lnbc.tiyoybawd0eq.name",
+			"type": "toggle",
+			"default": true
+		},
+
+		{
+			"name": "lnbc:baby_mob_model",
+			"text": "setting.lnbc.1jxq3625n0zx.name",
+			"type": "dropdown",
+			"default": "lnbc",
+			"options": [
+				{
+					"name": "lnbc",
+					"text": "option.lnbc.iahq9ne2mpfh.name"
+				},
+				{
+					"name": "vanilla",
+					"text": "option.lnbc.966cjeffjg7g.name"
+				},
+				{
+					"name": "legacy_vanilla",
+					"text": "option.lnbc.hmt2xvoe5i9f.name"
+				}
+			]
+		},
+		{
+			"name": "lnbc:bobber_model",
+			"text": "setting.lnbc.jijngsraokth.name",
+			"type": "dropdown",
+			"default": "day_night_random",
+			"options": [
+				{
+					"name": "day_night_random",
+					"text": "option.lnbc.5iwnqrqsx527.name"
+				},
+				{
+					"name": "full_random",
+					"text": "option.lnbc.xodcf7srhjqa.name"
+				},
+				{
+					"name": "lantern_only",
+					"text": "option.lnbc.06r3a92xh8x3.name"
+				},
+				{
+					"name": "ducky_only",
+					"text": "option.lnbc.r5lbki62qw8g.name"
+				},
+				{
+					"name": "beetroot_only",
+					"text": "option.lnbc.om7za0649fc9.name"
+				},
+				{
+					"name": "carrot_only",
+					"text": "option.lnbc.gu6ptong13kt.name"
+				},
+				{
+					"name": "christmas",
+					"text": "option.lnbc.bsigymk8hwlm.name"
+				}
+			]
+		},
+
+		{
+			"name": "lnbc:cross_of_undying_obstruction",
+			"text": "setting.lnbc.whhvlj5epruk.name",
+			"type": "dropdown",
+			"default": "shrink",
+			"options": [
+				{
+					"name": "deactivated",
+					"text": "option.lnbc.hz0lmy6vwfuj.name"
+				},
+				{
+					"name": "shrink",
+					"text": "option.lnbc.wfzs7ky7d8kg.name"
+				},
+				{
+					"name": "invisible",
+					"text": "option.lnbc.5eg3hn0atrn5.name"
+				}
+			]
+		},
+		{
+			"name": "lnbc:cross_of_undying_particles",
+			"text": "setting.lnbc.vx8l1s3eecqy.name",
+			"type": "dropdown",
+			"default": "high_detail_mode",
+			"options": [
+				{
+					"name": "default",
+					"text": "option.lnbc.tcqkrrt3wz3o.name"
+				},
+				{
+					"name": "high_detail_mode",
+					"text": "option.lnbc.cxcdcf72dutd.name"
+				}
+			]
+		},
+
+		{ "text": "setting.lnbc.id3alzrxljd0.name", "type": "label" },
+		{
+			"name": "lnbc:r9igbbhy1k",
+			"text": "setting.lnbc.dh7gou460prg.name",
+			"type": "toggle",
+			"default": true
+		},
+
+		{ "text": "setting.lnbc.ma4x7k763tr5.name", "type": "label" }
+	],
+	"metadata": {
+		"url": "https://www.curseforge.com/minecraft-bedrock/texture-packs/la-nature-by-carrot",
+		"authors": [
+			"LaCarotteRebel",
+
+
+			"IGNORE_BELLOW",
+
+
+			"42/50 max settings (Ctrl + F 'type' minus 2 = number of settings)",
+
+			"╔ ╦ ╠ ═ ╬ ╗ ╝ ╩ ╣ ╚ ø q.is_pack_setting_selected('lnbc:dropdown_name', 'option_name')",
+			"-§l§vT§6EMPL§pATE§r"
+		],
+		"license": "All Rights Reserved"
+	},
+	"capabilities": [ "pbr" ]
+}
